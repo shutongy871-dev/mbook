@@ -2,11 +2,6 @@
 
 **让阅读内容和用户状态实时驱动背景音乐的 Chrome 扩展。**
 
-[![CI](https://github.com/shutongy871-dev/mbook/actions/workflows/ci.yml/badge.svg)](https://github.com/shutongy871-dev/mbook/actions/workflows/ci.yml)
-![Chrome MV3](https://img.shields.io/badge/Chrome-Manifest_V3-4285F4)
-![TypeScript](https://img.shields.io/badge/TypeScript-7-3178C6)
-![Tests](https://img.shields.io/badge/tests-178_passed-2EA44F)
-
 MBook 采集当前可见正文和阅读节奏，将内容映射为八维情绪，再从本地或个人曲库召回、排序并播放合适的音乐。它不是静态歌单播放器，而是一条持续运行的 **阅读感知 -> 情绪理解 -> 音乐推荐 -> 播放反馈** 闭环。
 
 <p align="center">
