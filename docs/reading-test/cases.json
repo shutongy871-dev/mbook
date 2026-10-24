@@ -1,0 +1,3752 @@
+[
+  {
+    "name": "无关键词",
+    "expression": "他打开了门。",
+    "expected": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "词条命中0次，八维全零。",
+    "paragraphs": [
+      "他打开了门。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他打开了门。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他打开了门。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 0
+    }
+  },
+  {
+    "name": "单维：开心",
+    "expression": "他感到开心。",
+    "expected": [
+      0.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "仅对应维度0.5，其余补0。每段有效命中1次。",
+    "paragraphs": [
+      "他感到开心。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到开心。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到开心。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "开心",
+              "expression": "开心",
+              "sentence": "他感到开心。",
+              "start": 3,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "开心",
+              "expression": "开心",
+              "sentence": "他感到开心。",
+              "start": 113,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "开心",
+              "expression": "开心",
+              "sentence": "他感到开心。",
+              "start": 223,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "开心",
+            "expression": "开心",
+            "sentence": "他感到开心。",
+            "start": 3,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "sadness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "单维：悲伤",
+    "expression": "他感到悲伤。",
+    "expected": [
+      0,
+      0.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "仅对应维度0.5，其余补0。每段有效命中1次。",
+    "paragraphs": [
+      "他感到悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "他感到悲伤。",
+              "start": 3,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "他感到悲伤。",
+              "start": 113,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "他感到悲伤。",
+              "start": 223,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "悲伤",
+            "expression": "悲伤",
+            "sentence": "他感到悲伤。",
+            "start": 3,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "单维：温柔",
+    "expression": "他感到温柔。",
+    "expected": [
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "仅对应维度0.5，其余补0。每段有效命中1次。",
+    "paragraphs": [
+      "他感到温柔。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到温柔。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到温柔。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "tenderness": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "温柔",
+              "expression": "温柔",
+              "sentence": "他感到温柔。",
+              "start": 3,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "温柔",
+              "expression": "温柔",
+              "sentence": "他感到温柔。",
+              "start": 113,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "温柔",
+              "expression": "温柔",
+              "sentence": "他感到温柔。",
+              "start": 223,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "温柔",
+            "expression": "温柔",
+            "sentence": "他感到温柔。",
+            "start": 3,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "单维：希望",
+    "expression": "他感到希望。",
+    "expected": [
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "仅对应维度0.5，其余补0。每段有效命中1次。",
+    "paragraphs": [
+      "他感到希望。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到希望。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到希望。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "希望",
+              "expression": "希望",
+              "sentence": "他感到希望。",
+              "start": 3,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "希望",
+              "expression": "希望",
+              "sentence": "他感到希望。",
+              "start": 113,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "希望",
+              "expression": "希望",
+              "sentence": "他感到希望。",
+              "start": 223,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "希望",
+            "expression": "希望",
+            "sentence": "他感到希望。",
+            "start": 3,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "单维：害怕",
+    "expression": "他感到害怕。",
+    "expected": [
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      0
+    ],
+    "note": "仅对应维度0.5，其余补0。每段有效命中1次。",
+    "paragraphs": [
+      "他感到害怕。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到害怕。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到害怕。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "害怕",
+              "expression": "害怕",
+              "sentence": "他感到害怕。",
+              "start": 3,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "害怕",
+              "expression": "害怕",
+              "sentence": "他感到害怕。",
+              "start": 113,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "害怕",
+              "expression": "害怕",
+              "sentence": "他感到害怕。",
+              "start": 223,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "害怕",
+            "expression": "害怕",
+            "sentence": "他感到害怕。",
+            "start": 3,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "单维：愤怒",
+    "expression": "他感到愤怒。",
+    "expected": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0,
+      0
+    ],
+    "note": "仅对应维度0.5，其余补0。每段有效命中1次。",
+    "paragraphs": [
+      "他感到愤怒。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到愤怒。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到愤怒。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "愤怒",
+              "expression": "愤怒",
+              "sentence": "他感到愤怒。",
+              "start": 3,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "愤怒",
+              "expression": "愤怒",
+              "sentence": "他感到愤怒。",
+              "start": 113,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "愤怒",
+              "expression": "愤怒",
+              "sentence": "他感到愤怒。",
+              "start": 223,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "愤怒",
+            "expression": "愤怒",
+            "sentence": "他感到愤怒。",
+            "start": 3,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "单维：神秘",
+    "expression": "他感到神秘。",
+    "expected": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0
+    ],
+    "note": "仅对应维度0.5，其余补0。每段有效命中1次。",
+    "paragraphs": [
+      "他感到神秘。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到神秘。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到神秘。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "神秘",
+              "expression": "神秘",
+              "sentence": "他感到神秘。",
+              "start": 3,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "神秘",
+              "expression": "神秘",
+              "sentence": "他感到神秘。",
+              "start": 113,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "神秘",
+              "expression": "神秘",
+              "sentence": "他感到神秘。",
+              "start": 223,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "神秘",
+            "expression": "神秘",
+            "sentence": "他感到神秘。",
+            "start": 3,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "单维：庄严",
+    "expression": "他感到庄严。",
+    "expected": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.5
+    ],
+    "note": "仅对应维度0.5，其余补0。每段有效命中1次。",
+    "paragraphs": [
+      "他感到庄严。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到庄严。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他感到庄严。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "庄严",
+              "expression": "庄严",
+              "sentence": "他感到庄严。",
+              "start": 3,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "庄严",
+              "expression": "庄严",
+              "sentence": "他感到庄严。",
+              "start": 113,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "庄严",
+              "expression": "庄严",
+              "sentence": "他感到庄严。",
+              "start": 223,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "庄严",
+            "expression": "庄严",
+            "sentence": "他感到庄严。",
+            "start": 3,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "程度词与平均",
+    "expression": "他有点悲伤。她非常悲伤。",
+    "expected": [
+      0,
+      0.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "每段两条证据：0.25和0.75；均值0.5，不是累计值1。",
+    "paragraphs": [
+      "他有点悲伤。她非常悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他有点悲伤。她非常悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他有点悲伤。她非常悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0.5,
+          "sum": 3,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "悲伤",
+              "expression": "有点悲伤",
+              "sentence": "他有点悲伤。",
+              "start": 1,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 0.5,
+              "score": 0.25,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "非常悲伤",
+              "sentence": "她非常悲伤。",
+              "start": 7,
+              "end": 11,
+              "sentenceIndex": 1,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "有点悲伤",
+              "sentence": "他有点悲伤。",
+              "start": 117,
+              "end": 121,
+              "sentenceIndex": 7,
+              "baseScore": 0.5,
+              "multiplier": 0.5,
+              "score": 0.25,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "非常悲伤",
+              "sentence": "她非常悲伤。",
+              "start": 123,
+              "end": 127,
+              "sentenceIndex": 8,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "有点悲伤",
+              "sentence": "他有点悲伤。",
+              "start": 233,
+              "end": 237,
+              "sentenceIndex": 14,
+              "baseScore": 0.5,
+              "multiplier": 0.5,
+              "score": 0.25,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "非常悲伤",
+              "sentence": "她非常悲伤。",
+              "start": 239,
+              "end": 243,
+              "sentenceIndex": 15,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "悲伤",
+            "expression": "非常悲伤",
+            "sentence": "她非常悲伤。",
+            "start": 7,
+            "end": 11,
+            "sentenceIndex": 1,
+            "baseScore": 0.5,
+            "multiplier": 1.5,
+            "score": 0.75,
+            "excluded": null
+          },
+          "hitCount": 6,
+          "validHitCount": 6,
+          "sentenceCount": 6
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 6
+    }
+  },
+  {
+    "name": "否定排除",
+    "expression": "他并不悲伤。",
+    "expected": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "有词条命中，但有效命中0次；证据显示“否定排除”，八维全零。",
+    "paragraphs": [
+      "他并不悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他并不悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他并不悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [
+            {
+              "term": "悲伤",
+              "expression": "并不悲伤",
+              "sentence": "他并不悲伤。",
+              "start": 1,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0,
+              "excluded": "negated"
+            },
+            {
+              "term": "悲伤",
+              "expression": "并不悲伤",
+              "sentence": "他并不悲伤。",
+              "start": 111,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0,
+              "excluded": "negated"
+            },
+            {
+              "term": "悲伤",
+              "expression": "并不悲伤",
+              "sentence": "他并不悲伤。",
+              "start": 221,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0,
+              "excluded": "negated"
+            }
+          ],
+          "strongestEvidence": null,
+          "hitCount": 3,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "否定与有效证据并存",
+    "expression": "他并不悲伤。她非常悲伤。",
+    "expected": [
+      0,
+      0.75,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "每段命中2次，有效1次，均值0.75；否定项不进入分母。",
+    "paragraphs": [
+      "他并不悲伤。她非常悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他并不悲伤。她非常悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他并不悲伤。她非常悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0.75,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0.75,
+          "sum": 2.25,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "悲伤",
+              "expression": "并不悲伤",
+              "sentence": "他并不悲伤。",
+              "start": 1,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0,
+              "excluded": "negated"
+            },
+            {
+              "term": "悲伤",
+              "expression": "非常悲伤",
+              "sentence": "她非常悲伤。",
+              "start": 7,
+              "end": 11,
+              "sentenceIndex": 1,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "并不悲伤",
+              "sentence": "他并不悲伤。",
+              "start": 117,
+              "end": 121,
+              "sentenceIndex": 7,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0,
+              "excluded": "negated"
+            },
+            {
+              "term": "悲伤",
+              "expression": "非常悲伤",
+              "sentence": "她非常悲伤。",
+              "start": 123,
+              "end": 127,
+              "sentenceIndex": 8,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "并不悲伤",
+              "sentence": "他并不悲伤。",
+              "start": 233,
+              "end": 237,
+              "sentenceIndex": 14,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0,
+              "excluded": "negated"
+            },
+            {
+              "term": "悲伤",
+              "expression": "非常悲伤",
+              "sentence": "她非常悲伤。",
+              "start": 239,
+              "end": 243,
+              "sentenceIndex": 15,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "悲伤",
+            "expression": "非常悲伤",
+            "sentence": "她非常悲伤。",
+            "start": 7,
+            "end": 11,
+            "sentenceIndex": 1,
+            "baseScore": 0.5,
+            "multiplier": 1.5,
+            "score": 0.75,
+            "excluded": null
+          },
+          "hitCount": 6,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 6
+    }
+  },
+  {
+    "name": "复杂否定",
+    "expression": "他不是不开心。",
+    "expected": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "证据显示“复杂否定排除”，当前算法不推断双重否定的真实含义。",
+    "paragraphs": [
+      "他不是不开心。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他不是不开心。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他不是不开心。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [
+            {
+              "term": "开心",
+              "expression": "不是不开心",
+              "sentence": "他不是不开心。",
+              "start": 1,
+              "end": 6,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0,
+              "excluded": "complex_negation"
+            },
+            {
+              "term": "开心",
+              "expression": "不是不开心",
+              "sentence": "他不是不开心。",
+              "start": 112,
+              "end": 117,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0,
+              "excluded": "complex_negation"
+            },
+            {
+              "term": "开心",
+              "expression": "不是不开心",
+              "sentence": "他不是不开心。",
+              "start": 223,
+              "end": 228,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0,
+              "excluded": "complex_negation"
+            }
+          ],
+          "strongestEvidence": null,
+          "hitCount": 3,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "完整长词优先",
+    "expression": "他悲痛欲绝。",
+    "expected": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "命中完整“悲痛欲绝”，悲伤1；不再重复命中其中较短词条。",
+    "paragraphs": [
+      "他悲痛欲绝。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他悲痛欲绝。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他悲痛欲绝。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 1,
+          "sum": 3,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "悲痛欲绝",
+              "expression": "悲痛欲绝",
+              "sentence": "他悲痛欲绝。",
+              "start": 1,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 1,
+              "multiplier": 1,
+              "score": 1,
+              "excluded": null
+            },
+            {
+              "term": "悲痛欲绝",
+              "expression": "悲痛欲绝",
+              "sentence": "他悲痛欲绝。",
+              "start": 111,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 1,
+              "multiplier": 1,
+              "score": 1,
+              "excluded": null
+            },
+            {
+              "term": "悲痛欲绝",
+              "expression": "悲痛欲绝",
+              "sentence": "他悲痛欲绝。",
+              "start": 221,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 1,
+              "multiplier": 1,
+              "score": 1,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "悲痛欲绝",
+            "expression": "悲痛欲绝",
+            "sentence": "他悲痛欲绝。",
+            "start": 1,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 1,
+            "multiplier": 1,
+            "score": 1,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "强度上限",
+    "expression": "他极其悲痛欲绝。",
+    "expected": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "基础1×程度1.5，单次贡献封顶1。",
+    "paragraphs": [
+      "他极其悲痛欲绝。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他极其悲痛欲绝。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他极其悲痛欲绝。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 1,
+          "sum": 3,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "悲痛欲绝",
+              "expression": "极其悲痛欲绝",
+              "sentence": "他极其悲痛欲绝。",
+              "start": 1,
+              "end": 7,
+              "sentenceIndex": 0,
+              "baseScore": 1,
+              "multiplier": 1.5,
+              "score": 1,
+              "excluded": null
+            },
+            {
+              "term": "悲痛欲绝",
+              "expression": "极其悲痛欲绝",
+              "sentence": "他极其悲痛欲绝。",
+              "start": 113,
+              "end": 119,
+              "sentenceIndex": 6,
+              "baseScore": 1,
+              "multiplier": 1.5,
+              "score": 1,
+              "excluded": null
+            },
+            {
+              "term": "悲痛欲绝",
+              "expression": "极其悲痛欲绝",
+              "sentence": "他极其悲痛欲绝。",
+              "start": 225,
+              "end": 231,
+              "sentenceIndex": 12,
+              "baseScore": 1,
+              "multiplier": 1.5,
+              "score": 1,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "悲痛欲绝",
+            "expression": "极其悲痛欲绝",
+            "sentence": "他极其悲痛欲绝。",
+            "start": 1,
+            "end": 7,
+            "sentenceIndex": 0,
+            "baseScore": 1,
+            "multiplier": 1.5,
+            "score": 1,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "混合情绪",
+    "expression": "她非常悲伤，但对明天仍充满希望。",
+    "expected": [
+      0,
+      0.75,
+      0,
+      0.75,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "悲伤和希望独立计算，各0.75；其余补0。",
+    "paragraphs": [
+      "她非常悲伤，但对明天仍充满希望。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "她非常悲伤，但对明天仍充满希望。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "她非常悲伤，但对明天仍充满希望。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0.75,
+        0,
+        0.75,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0.75,
+          "sum": 2.25,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "悲伤",
+              "expression": "非常悲伤",
+              "sentence": "她非常悲伤，但对明天仍充满希望。",
+              "start": 1,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "非常悲伤",
+              "sentence": "她非常悲伤，但对明天仍充满希望。",
+              "start": 121,
+              "end": 125,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "非常悲伤",
+              "sentence": "她非常悲伤，但对明天仍充满希望。",
+              "start": 241,
+              "end": 245,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "悲伤",
+            "expression": "非常悲伤",
+            "sentence": "她非常悲伤，但对明天仍充满希望。",
+            "start": 1,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1.5,
+            "score": 0.75,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0.75,
+          "sum": 2.25,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "充满希望",
+              "expression": "充满希望",
+              "sentence": "她非常悲伤，但对明天仍充满希望。",
+              "start": 11,
+              "end": 15,
+              "sentenceIndex": 0,
+              "baseScore": 0.75,
+              "multiplier": 1,
+              "score": 0.75,
+              "excluded": null
+            },
+            {
+              "term": "充满希望",
+              "expression": "充满希望",
+              "sentence": "她非常悲伤，但对明天仍充满希望。",
+              "start": 131,
+              "end": 135,
+              "sentenceIndex": 6,
+              "baseScore": 0.75,
+              "multiplier": 1,
+              "score": 0.75,
+              "excluded": null
+            },
+            {
+              "term": "充满希望",
+              "expression": "充满希望",
+              "sentence": "她非常悲伤，但对明天仍充满希望。",
+              "start": 251,
+              "end": 255,
+              "sentenceIndex": 12,
+              "baseScore": 0.75,
+              "multiplier": 1,
+              "score": 0.75,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "充满希望",
+            "expression": "充满希望",
+            "sentence": "她非常悲伤，但对明天仍充满希望。",
+            "start": 11,
+            "end": 15,
+            "sentenceIndex": 0,
+            "baseScore": 0.75,
+            "multiplier": 1,
+            "score": 0.75,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 6
+    }
+  },
+  {
+    "name": "一词多维",
+    "expression": "他悲喜交加。",
+    "expected": [
+      0.5,
+      0.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "一个词条同时贡献喜悦和悲伤；总词条命中每段1次，各维有效命中各1次。",
+    "paragraphs": [
+      "他悲喜交加。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他悲喜交加。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他悲喜交加。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0.5,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "悲喜交加",
+              "expression": "悲喜交加",
+              "sentence": "他悲喜交加。",
+              "start": 1,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲喜交加",
+              "expression": "悲喜交加",
+              "sentence": "他悲喜交加。",
+              "start": 111,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲喜交加",
+              "expression": "悲喜交加",
+              "sentence": "他悲喜交加。",
+              "start": 221,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "悲喜交加",
+            "expression": "悲喜交加",
+            "sentence": "他悲喜交加。",
+            "start": 1,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "sadness": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "悲喜交加",
+              "expression": "悲喜交加",
+              "sentence": "他悲喜交加。",
+              "start": 1,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲喜交加",
+              "expression": "悲喜交加",
+              "sentence": "他悲喜交加。",
+              "start": 111,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲喜交加",
+              "expression": "悲喜交加",
+              "sentence": "他悲喜交加。",
+              "start": 221,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "悲喜交加",
+            "expression": "悲喜交加",
+            "sentence": "他悲喜交加。",
+            "start": 1,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "词内“不”",
+    "expression": "他非常不安。",
+    "expected": [
+      0,
+      0,
+      0,
+      0,
+      0.75,
+      0,
+      0,
+      0
+    ],
+    "note": "“不安”本身是词条，不把“不”误判为外部否定；恐惧0.75。",
+    "paragraphs": [
+      "他非常不安。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他非常不安。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他非常不安。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0,
+        0,
+        0,
+        0.75,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0.75,
+          "sum": 2.25,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "不安",
+              "expression": "非常不安",
+              "sentence": "他非常不安。",
+              "start": 1,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            },
+            {
+              "term": "不安",
+              "expression": "非常不安",
+              "sentence": "他非常不安。",
+              "start": 111,
+              "end": 115,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            },
+            {
+              "term": "不安",
+              "expression": "非常不安",
+              "sentence": "他非常不安。",
+              "start": 221,
+              "end": 225,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1.5,
+              "score": 0.75,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "不安",
+            "expression": "非常不安",
+            "sentence": "他非常不安。",
+            "start": 1,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1.5,
+            "score": 0.75,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 3
+    }
+  },
+  {
+    "name": "重复不累加强度",
+    "expression": "他悲伤。她悲伤。",
+    "expected": [
+      0,
+      0.5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "悲伤出现多次仍取均值0.5；累计贡献和有效次数增加。",
+    "paragraphs": [
+      "他悲伤。她悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他悲伤。她悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "他悲伤。她悲伤。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "sadness": {
+          "score": 0.5,
+          "sum": 3,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "他悲伤。",
+              "start": 1,
+              "end": 3,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "她悲伤。",
+              "start": 5,
+              "end": 7,
+              "sentenceIndex": 1,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "他悲伤。",
+              "start": 113,
+              "end": 115,
+              "sentenceIndex": 7,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "她悲伤。",
+              "start": 117,
+              "end": 119,
+              "sentenceIndex": 8,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "他悲伤。",
+              "start": 225,
+              "end": 227,
+              "sentenceIndex": 14,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "她悲伤。",
+              "start": 229,
+              "end": 231,
+              "sentenceIndex": 15,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "悲伤",
+            "expression": "悲伤",
+            "sentence": "他悲伤。",
+            "start": 1,
+            "end": 3,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 6,
+          "validHitCount": 6,
+          "sentenceCount": 6
+        },
+        "tenderness": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "hope": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "fear": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "anger": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "mystery": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        },
+        "solemnity": {
+          "score": 0,
+          "sum": 0,
+          "unknown": true,
+          "evidence": [],
+          "strongestEvidence": null,
+          "hitCount": 0,
+          "validHitCount": 0,
+          "sentenceCount": 0
+        }
+      },
+      "matchedExpressionCount": 6
+    }
+  },
+  {
+    "name": "八维同时命中",
+    "expression": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+    "expected": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "note": "每段8个词条，八维均为0.5。",
+    "paragraphs": [
+      "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。",
+      "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。桌上放着一本书和两支笔。窗边摆着一张木桌，地面铺着方形地砖。他把纸张放进抽屉，再将杯子移到桌子的另一边。钟表指向下午三点，门外有一条通向楼梯的走廊。他翻到书的下一页，读完上面的几行文字，又将书页摊在桌面上。"
+    ],
+    "profile": {
+      "version": "emotion-8-mean-zero-v5",
+      "vector": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "dimensions": {
+        "joy": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "开心",
+              "expression": "开心",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 0,
+              "end": 2,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "开心",
+              "expression": "开心",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 128,
+              "end": 130,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "开心",
+              "expression": "开心",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 256,
+              "end": 258,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "开心",
+            "expression": "开心",
+            "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+            "start": 0,
+            "end": 2,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "sadness": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 3,
+              "end": 5,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 131,
+              "end": 133,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "悲伤",
+              "expression": "悲伤",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 259,
+              "end": 261,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "悲伤",
+            "expression": "悲伤",
+            "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+            "start": 3,
+            "end": 5,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "tenderness": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "温柔",
+              "expression": "温柔",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 6,
+              "end": 8,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "温柔",
+              "expression": "温柔",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 134,
+              "end": 136,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "温柔",
+              "expression": "温柔",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 262,
+              "end": 264,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "温柔",
+            "expression": "温柔",
+            "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+            "start": 6,
+            "end": 8,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "hope": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "希望",
+              "expression": "希望",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 9,
+              "end": 11,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "希望",
+              "expression": "希望",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 137,
+              "end": 139,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "希望",
+              "expression": "希望",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 265,
+              "end": 267,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "希望",
+            "expression": "希望",
+            "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+            "start": 9,
+            "end": 11,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "fear": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "害怕",
+              "expression": "害怕",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 12,
+              "end": 14,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "害怕",
+              "expression": "害怕",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 140,
+              "end": 142,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "害怕",
+              "expression": "害怕",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 268,
+              "end": 270,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "害怕",
+            "expression": "害怕",
+            "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+            "start": 12,
+            "end": 14,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "anger": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "愤怒",
+              "expression": "愤怒",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 15,
+              "end": 17,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "愤怒",
+              "expression": "愤怒",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 143,
+              "end": 145,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "愤怒",
+              "expression": "愤怒",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 271,
+              "end": 273,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "愤怒",
+            "expression": "愤怒",
+            "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+            "start": 15,
+            "end": 17,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "mystery": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "神秘",
+              "expression": "神秘",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 18,
+              "end": 20,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "神秘",
+              "expression": "神秘",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 146,
+              "end": 148,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "神秘",
+              "expression": "神秘",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 274,
+              "end": 276,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "神秘",
+            "expression": "神秘",
+            "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+            "start": 18,
+            "end": 20,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        },
+        "solemnity": {
+          "score": 0.5,
+          "sum": 1.5,
+          "unknown": false,
+          "evidence": [
+            {
+              "term": "庄严",
+              "expression": "庄严",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 21,
+              "end": 23,
+              "sentenceIndex": 0,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "庄严",
+              "expression": "庄严",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 149,
+              "end": 151,
+              "sentenceIndex": 6,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            },
+            {
+              "term": "庄严",
+              "expression": "庄严",
+              "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+              "start": 277,
+              "end": 279,
+              "sentenceIndex": 12,
+              "baseScore": 0.5,
+              "multiplier": 1,
+              "score": 0.5,
+              "excluded": null
+            }
+          ],
+          "strongestEvidence": {
+            "term": "庄严",
+            "expression": "庄严",
+            "sentence": "开心，悲伤，温柔，希望，害怕，愤怒，神秘，庄严。",
+            "start": 21,
+            "end": 23,
+            "sentenceIndex": 0,
+            "baseScore": 0.5,
+            "multiplier": 1,
+            "score": 0.5,
+            "excluded": null
+          },
+          "hitCount": 3,
+          "validHitCount": 3,
+          "sentenceCount": 3
+        }
+      },
+      "matchedExpressionCount": 24
+    }
+  }
+]
